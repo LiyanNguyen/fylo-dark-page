@@ -7,8 +7,8 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
 ### Screenshot
 
 ### Links
-- Source URL: 
-- Live Site URL: 
+- Source URL: https://github.com/LiyanNguyen/fylo-dark-page
+- Live Site URL: https://liyannguyen.github.io/fylo-dark-page
 
 ### My Process
 - Design the Mobile viewport WHILE desinging the Desktop Viewport at the same time using
