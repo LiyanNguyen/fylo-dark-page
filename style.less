@@ -46,11 +46,15 @@
 
 // MOBILE FIRST APPROACH
 // FOLLOWING THE FIGMA FILE FOR PIXEL PERFECT POSITIONING
+body {
+	background-color: @introEmailBackground;
+}
+
 nav {
 	padding-top: 24px;
 	padding-left: 20px;
 	padding-right: 24px;
-	background-color: @mainBackground;
+	background-color: @introEmailBackground;
 	display: flex;
 	justify-content: space-between;
 
@@ -75,15 +79,15 @@ nav {
 
 			&:hover {
 				text-decoration: underline;
-				font-weight: 700;
 			}
 		}
 	}
 }
 
-body {
+main {
 	background-color: @mainBackground;
 }
+
 
 #sect1 {
 	padding-top: 48px;
@@ -91,6 +95,11 @@ body {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
+	background-color: @introEmailBackground;
+	background-image:url(images/bg-curvy-mobile.svg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: contain;
 
 	img {
 		display: block;
@@ -206,7 +215,6 @@ body {
 			gap: 6px;
 			padding-top: 16px;
 			width: max-content;
-			transition: 0.15s;
 
 			&::after {
 				content: '';
@@ -251,6 +259,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	padding-top: 169px;
+	padding-bottom: 337px;
 	gap: 24px;
 
 	#quotes {
@@ -391,7 +400,6 @@ body {
 
 footer {
 	width: 100%;
-	margin-top: 337px;
 	position: relative;
 	background-color: #0B1524;
 	padding-top: 259px;
@@ -466,7 +474,7 @@ footer {
 				width: max-content;
 
 				&:hover {
-					font-weight: 700;
+					text-decoration: underline;
 				}
 			}
 		}
@@ -511,6 +519,7 @@ footer {
 
 	#sect1 {
 		padding-top: 75px;
+		background-image: url(images/bg-curvy-desktop.svg);
 
 		img {
 			display: block;
@@ -713,7 +722,7 @@ footer {
 
 
 			div:nth-child(1) {
-				max-width: 379px;
+				width: 379px;
 				padding-top: 52px;
 				
 			}
@@ -743,15 +752,16 @@ footer {
 	body {
 		display: flex;
 		flex-direction: column;
-		align-items: center;
-		background-color: @mainBackground;
+		// align-items: center;
+		// background-color: @mainBackground;
 	}
 	nav {
 		width: 1440px;
+		align-self: center;
 	}
-	main {
-		width: 1440px;
-	}
+	// main {
+	// 	width: 1440px;
+	// }
 
 	footer {
 		.container {

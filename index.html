@@ -5,28 +5,30 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Fylo</title>
-	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.png">
 	<link rel="stylesheet" href="style.css">
+	<link href="./aos/aos.css" rel="stylesheet">
+	<script src="./aos/aos.js" defer></script>
 	<script src="script.js" defer></script>
 </head>
 <body>
 	<nav>
-		<img src="images/logo.svg" alt="">
+		<img src="images/logo.svg" alt="" data-aos="fade-in">
 		<ul>
-			<li>Features</li>
-			<li>Team</li>
-			<li>Sign In</li>
+			<li data-aos="fade-in">Features</li>
+			<li data-aos="fade-in">Team</li>
+			<li data-aos="fade-in">Sign In</li>
 		</ul>
 	</nav>
 	<main>
 		<section id="sect1">
-			<img src="images/illustration-intro.png" alt="">
-			<h1>All your files in one secure location, accessible anywhere.</h1>
-			<p>Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.</p>
-			<button>Get Started</button>
+			<img src="images/illustration-intro.png" alt="" data-aos="zoom-out">
+			<h1 data-aos="fade-up">All your files in one secure location, accessible anywhere.</h1>
+			<p data-aos="fade-up">Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.</p>
+			<button data-aos="fade-up">Get Started</button>
 		</section>
 		<section id="sect2">
-			<div>
+			<div data-aos="fade-right">
 				<div class="imgContainer">
 					<img src="images/icon-access-anywhere.svg" alt="">
 				</div>
@@ -34,7 +36,7 @@
 				<p>The ability to use a smartphone, tablet, or computer to access your account means your
 				files follow you everywhere.</p>
 			</div>
-			<div>
+			<div data-aos="fade-up" data-aos-delay="300">
 				<div class="imgContainer">
 					<img src="images/icon-security.svg" alt="">
 				</div>
@@ -42,14 +44,14 @@
 				<p>2-factor authentication and user-controlled encryption are just a couple of the security
 				features we allow to help secure your files.</p>
 			</div>
-			<div>
+			<div data-aos="fade-up">
 				<div class="imgContainer">
 					<img src="images/icon-collaboration.svg" alt="">
 				</div>
 				<h3>Real-time collaboration</h3>
 				<p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
 			</div>
-			<div>
+			<div data-aos="fade-left" data-aos-delay="300">
 				<div class="imgContainer">
 					<img src="images/icon-any-file.svg" alt="">
 				</div>
@@ -58,20 +60,20 @@
 			</div>
 		</section>
 		<section id="sect3">
-			<img src="images/illustration-stay-productive.png" alt="">
+			<img src="images/illustration-stay-productive.png" alt="" data-aos="zoom-out">
 			<div>
-				<h3>Stay productive, wherever you are</h3>
-				<p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file
+				<h3 data-aos="fade-up">Stay productive, wherever you are</h3>
+				<p data-aos="fade-up">Never let location be an issue when accessing your files. Fylo has you covered for all of your file
 				storage needs.</p>
-				<p>Securely share files and folders with friends, family and colleagues for live collaboration. No email
+				<p data-aos="fade-up">Securely share files and folders with friends, family and colleagues for live collaboration. No email
 				attachments required.</p>
-				<span>
+				<span data-aos="fade-up">
 					<a href="#" onclick="event.preventDefault()">See how Fylo works <img src="images/icon-arrow.svg" alt=""></a>
 				</span>
 			</div>
 		</section>
 		<section id="sect4">
-			<div class="reviewCard">
+			<div class="reviewCard" data-aos="fade-up">
 				<img src="images/bg-quotes.png" alt="" id="quotes">
 				<p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
 				<div class="userContainer">
@@ -82,7 +84,7 @@
 					</span>
 				</div>
 			</div>
-			<div class="reviewCard">
+			<div class="reviewCard" data-aos="fade-up" data-aos-delay="150">
 				<p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
 				<div class="userContainer">
 					<img src="images/profile-2.jpg" alt="">
@@ -92,7 +94,7 @@
 					</span>
 				</div>
 			</div>
-			<div class="reviewCard">
+			<div class="reviewCard" data-aos="fade-up" data-aos-delay="300">
 				<p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
 				<div class="userContainer">
 					<img src="images/profile-3.jpg" alt="">
@@ -106,7 +108,7 @@
 	</main>
 	<footer>
 		<section id="sect5">
-			<div class="card">
+			<div class="card" data-aos="zoom-in">
 				<b>Get early access today</b>
 				<p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our
 					support team would be happy to help you.</p>
