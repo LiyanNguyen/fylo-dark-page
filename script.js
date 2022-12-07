@@ -1,5 +1,5 @@
-AOS.init();
+// AOS.init();
 
-AOS.init({
-  duration: 750,
-});
+// AOS.init({
+//   duration: 750,
+// });
